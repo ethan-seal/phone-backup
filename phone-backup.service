@@ -1,0 +1,8 @@
+[Unit]
+Description=Compress phone backups
+
+[Service]
+Type=oneshot
+ExecStart=/home/syncthing/Backups/compress.sh
+User=syncthing
+Group=systemd-journal
